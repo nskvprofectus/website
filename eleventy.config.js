@@ -4,8 +4,7 @@ module.exports = function(config) {
   config.addPlugin(eleventyNavigationPlugin);
 
   config.addPassthroughCopy('media');
-  config.addPassthroughCopy('favicon.png');
-  config.addPassthroughCopy('favicon.svg');
+
 
   return {
     dir: {
