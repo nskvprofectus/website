@@ -8,14 +8,14 @@
     }
     
     h1 {
-        @apply font-large font-extrabold uppercase text-2xl;
+        @apply font-large font-extrabold uppercase text-3xl;
     }
 
     h2 {
-        @apply font-large font-bold uppercase text-xl;
+        @apply font-large font-bold uppercase text-2xl;
     }
 
     h3 {
-        @apply font-large font-bold uppercase ;
+        @apply font-large font-bold uppercase text-xl ;
     }
 }
