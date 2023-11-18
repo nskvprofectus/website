@@ -2,7 +2,6 @@
 module.exports = {
   content: ['./site/**/*.njk'],
   theme: {
-    extend: {},
     colors: {
       "bg" : "#0D0F15",
       "white" : "#FFFFFF",
@@ -17,12 +16,15 @@ module.exports = {
         '"Titillium Web"',
       ]
     },
-    width: {
-      'content': '80rem',
+    extend: {
+      maxWidth: {
+        'content': '80rem',
+        
+      },
+      minHeight: {
+        'footer': '3rem',
+      }
     },
-    minHeight: {
-      'footer': '3rem',
-    }
   },
   plugins: [],
 }

@@ -1,9 +1,9 @@
 
-<div class="social-icons flex flex-row">
+<div class="social-icons flex flex-row gap-2">
 
     {% for icon, link in site.social_links %}
 
-        <a class="mx-2" href="{{ link | safe }}" target="_blank" rel="noreferrer noopener">
+        <a href="{{ link | safe }}" target="_blank" rel="noreferrer noopener">
             <img
                 src="/media/social_media_icons/{{ icon }}.svg"
                 alt="{{ icon }}"
