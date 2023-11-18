@@ -18,7 +18,7 @@ module.exports = {
       ]
     },
     width: {
-      'content': '96rem',
+      'content': '80rem',
     },
     minHeight: {
       'footer': '3rem',
