@@ -17,10 +17,10 @@
                     {%- for child in item.children %}
                         <a 
                             href="{{ child.url | url }}" 
-                            class=" inline-block font-large text-xl uppercase hover:text-red text-right w-full {{ text-red if item.url === page.url }}"
+                            class="{{ 'text-red' if child.url === page.url }} inline-block font-large text-xl uppercase hover:text-red text-right w-full"
                             role="menuitem"
                             tabindex="-1"
-                            {{ 'aria-current=page' if item.url === page.url }}
+                            {{ 'aria-current=page' if child.url === page.url }}
                         >
                         {{ child.title }}
                     </a>
@@ -32,7 +32,7 @@
         {% else %}
             <a 
                 href="{{ item.url | url }}" 
-                class="font-large text-xl uppercase hover:text-red {{ text-red if item.url === page.url }}" 
+                class="font-large text-xl uppercase hover:text-red {{ 'text-red' if item.url === page.url }}" 
                 {{ 'aria-current=page' if item.url === page.url }}>
                 {{ item.title }}
             </a>
