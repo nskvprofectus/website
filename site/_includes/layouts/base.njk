@@ -15,14 +15,26 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
   </head>
-  <body class="bg-bg text-white">
+  <body class="bg-bg text-white h-screen">
+    <div class="h-full">
+    <div class="h-full flex flex-col relative">
+        <div class="shrink-0 w-full">
         {% include "components/header.njk" %}
-        <div class="container mx-auto">
+        </div>
+        <div class="grow container mx-auto">
           {{ content | safe }}
         </div>
-      </div>
-      <div class="fixed bottom-0 w-full">
-      {% include "components/footer.njk" %}
+        <div class="w-full shrink-0">
+        {% include "components/footer.njk" %}
+        </div>
+    </div>
+
+    <div class="sticky bottom-0 w-full z-50">
+    {# include mobile nav #}
+    {% include "components/mobile-nav.njk" %}
+    </div>
+    </div>
+
 
   </body>
 </html>
