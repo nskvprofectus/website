@@ -19,9 +19,8 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
   </head>
-  <body class="bg-bg text-white h-screen">
-    <div class="h-full">
-    <div class="h-full flex flex-col relative">
+  <body class="bg-bg text-white flex-col">
+    <div class="relative h-full flex flex-col">
         <div class="shrink-0 w-full">
         {% include "components/header.njk" %}
         </div>
@@ -35,10 +34,7 @@
 
     <div class="sticky bottom-0 w-full z-50">
     {# include mobile nav #}
-    {% include "components/mobile-nav.njk" %}
+      {% include "components/mobile-nav.njk" %}
     </div>
-    </div>
-
-
   </body>
 </html>
