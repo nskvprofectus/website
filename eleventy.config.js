@@ -4,6 +4,7 @@ module.exports = function(config) {
   config.addPlugin(eleventyNavigationPlugin);
 
   config.addPassthroughCopy('media');
+  config.addPassthroughCopy('site/_js/')
 
 
   return {
