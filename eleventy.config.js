@@ -9,8 +9,8 @@ module.exports = function(config) {
   return {
     dir: {
       input: "site", 
-      includes: "includes",
-      data: "data",
+      includes: "_includes",
+      data: "_data",
     }
   };
 };

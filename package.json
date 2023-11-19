@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run 11ty:build && npm run css:build",
     "serve": "concurrently -c auto npm:css:watch npm:11ty:serve",
-    "css:build": "tailwindcss -i site/css/styles.css -o _site/css/main.css -m",
-    "css:watch": "tailwindcss -i site/css/styles.css -o _site/css/main.css -w",
+    "css:build": "tailwindcss -i site/_css/styles.css -o _site/css/main.css -m",
+    "css:watch": "tailwindcss -i site/_css/styles.css -o _site/css/main.css -w",
     "11ty:build": "npx @11ty/eleventy",
     "11ty:serve": "npx @11ty/eleventy --serve"
   },

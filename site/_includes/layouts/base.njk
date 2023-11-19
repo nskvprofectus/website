@@ -3,7 +3,7 @@
   <head>
     {#import fonts#}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@800&family=Titillium+Web:wght@600">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
 
     <link rel="icon" type="image/x-icon" href="/media/favicons/favicon.ico">
 
@@ -16,9 +16,8 @@
 
   </head>
   <body class="bg-bg text-white">
-      <div class="container mx-auto"> 
         {% include "components/header.njk" %}
-        <div>
+        <div class="container mx-auto">
           {{ content | safe }}
         </div>
       </div>

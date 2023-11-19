@@ -32,6 +32,7 @@ module.exports = {
       },
       minHeight: {
         'footer': '3rem',
+        'header': '4rem',
       }
     },
   },

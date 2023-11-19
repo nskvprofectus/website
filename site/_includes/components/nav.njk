@@ -1,0 +1,49 @@
+<nav id="nav" class="hidden sm:flex justify-end gap-8 items-center" aria-label="Primary">
+
+    {% set navigation = collections.all | eleventyNavigation %}
+
+    {%- for item in navigation %}
+        {% if item.children.length %}
+            <div class="group relative inline-block text-left">
+                <button type="button" class="dropdown-button font-large text-xl uppercase hover:text-red inline-flex w-full justify-center items-center" aria-expanded="true" aria-haspopup="true">
+                    {{ item.title }}
+                    <svg class="-mr-1 h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                    </svg>
+                </button>
+
+                <div class="absolute hidden group-hover:block w-full border-2 p-2 bg-bg" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="-1">
+                    <div class="py-1" role="none">
+                    {%- for child in item.children %}
+                        <a 
+                            href="{{ child.url | url }}" 
+                            class=" inline-block font-large text-xl uppercase hover:text-red text-right w-full {{ text-red if item.url === page.url }}"
+                            role="menuitem"
+                            tabindex="-1"
+                            {{ 'aria-current=page' if item.url === page.url }}
+                        >
+                        {{ child.title }}
+                    </a>
+                    {%- endfor %}
+                    </div>
+                </div>
+            </div>
+            
+        {% else %}
+            <a 
+                href="{{ item.url | url }}" 
+                class="font-large text-xl uppercase hover:text-red {{ text-red if item.url === page.url }}" 
+                {{ 'aria-current=page' if item.url === page.url }}>
+                {{ item.title }}
+            </a>
+        {% endif %}
+    {%- endfor %}
+
+    <a 
+        class="bg-red text-2xl font-large p-3 rounded-md uppercase"
+        href="{{ url }}/join_us"
+    >
+        Join us!
+    </a>
+
+</nav>
