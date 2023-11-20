@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+---
+
+<div class="relative w-full mb-5">
+    <div class=" h-mob-home-vid-height tresh:h-home-vid-height min-w-full overflow-hidden ">
+        <video autoplay muted loop class="h-full w-full opacity-10 object-cover">
+            <source class="w-full h-full" src="media/videos/home-vid.mp4" type="video/mp4">
+        </video> 
+    </div>
+    <div class ="absolute top-0 w-full h-full items-center justify-center hidden tresh:flex ">
+    <img
+        src="/media/logos/logo.svg" class="h-1/2 w-1/2"
+    />
+    </div>
+    <div class ="absolute top-0 w-full h-full items-center justify-center flex tresh:hidden ">
+        <p class="font-large uppercase text-3xl font-extrabold"> 
+            N.S.K.V. Profectus
+        </p>
+    </div>
+</div>
+
+
+<div class="markdown container mx-auto my-10">
+    {{ content | safe }}
+</div>

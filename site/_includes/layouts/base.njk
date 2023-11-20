@@ -24,7 +24,7 @@
         <div class="shrink-0 w-full">
         {% include "components/header.njk" %}
         </div>
-        <div class="grow container mx-auto">
+        <div class="grow">
           {{ content | safe }}
         </div>
         <div class="w-full shrink-0">
@@ -32,7 +32,7 @@
         </div>
     </div>
 
-    <div class="sticky bottom-0 w-full z-50">
+    <div class="sticky bottom-0 w-full z-10">
     {# include mobile nav #}
       {% include "components/mobile-nav.njk" %}
     </div>

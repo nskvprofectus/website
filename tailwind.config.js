@@ -34,6 +34,14 @@ module.exports = {
         'footer': '3rem',
         'header': '4rem',
       },
+      screens: {
+        'tresh': '1024px',
+        'logo-tresh': '1024px',
+      },
+      height: {
+        'home-vid-height': '40rem',
+        'mob-home-vid-height': '20rem',
+      }
     },
   },
   plugins: [],

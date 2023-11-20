@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/simple-page.njk
 title: The Board
 eleventyNavigation:
     key: board

@@ -4,11 +4,14 @@ const MobileNav = function MobileNav()
     let navWindow = document.getElementById('mobile-nav-window')
 
     navToggle.addEventListener('click', function() {
-        // add the expanded class to adjust css
-        this.classList.toggle('expanded')
         // make the navWindow visible
-        navWindow.classList.toggle('hidden')
-        navWindow.classList.toggle('flex')
+        navWindow.classList.toggle('translate-x-full')
+        navWindow.classList.toggle('translate-x-0')
+        navWindow.classList.remove('duration-0')
+        navWindow.classList.add('duration-500')
+
+
+        
 
         // set aria-expanded attribute on menu toggle button
         if ( this.getAttribute('aria-expanded') === 'false' )

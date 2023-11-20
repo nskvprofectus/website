@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/home.njk
 title: Home
 eleventyNavigation:
     key: home
@@ -15,3 +15,7 @@ We offer member only training sessions at the Radboud Sport Centrum three times 
 Check out this amazing video about our sports association below!
 
 Profectus is great for those that want to take working out to the next level, train together and meet new friends. Profectus has all necessary tools for an athlete to strive for their goals. If you are interested in competing in powerlifting, we offer programs and seminars for all levels to perfect your lifts. Profectus is a smaller student sport association of about 40 members creating a cozy and open atmosphere to meet new people in- and outside the gym. So, if you love going to the gym and you want to take your workouts to the next level and make friends along the way, you can sign up via mail or Instagram to join one of our training sessions!
+
+## Why you should join
+
+Join us please :()

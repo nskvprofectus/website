@@ -2,20 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {    
+.markdown {    
     html {
         @apply font-small font-semibold;
     }
     
+    h1, h2, h3 {
+        @apply font-large uppercase
+    }
     h1 {
-        @apply font-large font-extrabold uppercase text-2xl;
+        @apply font-extrabold text-2xl mt-4 mb-1
     }
 
     h2 {
-        @apply font-large font-bold uppercase text-xl;
+        @apply font-bold text-xl mt-3 ;
     }
 
     h3 {
-        @apply font-large font-bold uppercase ;
+        @apply font-bold ;
+    }
+
+    p {
+        @apply mb-3
     }
 }

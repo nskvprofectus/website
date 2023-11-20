@@ -1,9 +1,7 @@
 ---
-layout: layouts/base.njk
+layout: layouts/contact.njk
 title: Contact
 eleventyNavigation:
   key: Contact
   order: 3
 ---
-
-You can contact us at: thing@thingmail

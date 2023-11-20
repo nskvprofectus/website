@@ -1,9 +1,13 @@
 
-<nav class="lg:hidden bg-red w-screen min-h-footer" aria-label="Primary">
+<nav class="lg:hidden w-screen min-h-footer overflow-hidden" aria-label="Primary">
 
     {% set navigation = collections.all | eleventyNavigation %}
 
-    <ul id="mobile-nav-window" class="hidden flex-col items-end gap-3 p-5">
+    <ul id="mobile-nav-window" 
+        class="bg-red flex flex-col justify-end h-screen 
+            items-end gap-3 p-5 fixed inset-y-0 z-10 py-16
+            transform transition ease-in-out duration-0 translate-x-full"
+    >
         {%- for item in navigation %}
             {# if the item is a parent of other children, draw the children #}
             {% if item.children.length %}
@@ -42,7 +46,7 @@
         {%- endfor %}
 
         <li> 
-             <a 
+            <a 
                 href="{{ url }}/join_us" 
                 class="
                     block hover:text-black border-2  p-3 rounded-md font-large text-xl uppercase 
@@ -57,7 +61,7 @@
 
     </ul>
 
-    <button id="mobile-nav-toggle" class="w-full min-h-footer" aria-label="Mobile Navigation Toggle" aria-expanded="false" aria-controls="mobile-nav">
+    <button id="mobile-nav-toggle" class="bg-red w-full min-h-footer z-30 fixed" aria-label="Mobile Navigation Toggle" aria-expanded="false" aria-controls="mobile-nav">
 
         <span class=" font-large text-xl uppercase">Menu</span>
 

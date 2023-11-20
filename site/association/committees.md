@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/simple-page.njk
 title: Our committees
 eleventyNavigation:
     key: committees
