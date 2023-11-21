@@ -3,6 +3,7 @@
     {% set navigation = collections.all | eleventyNavigation %}
 
     {%- for item in navigation %}
+        {# if the item has any children #}
         {% if item.children.length %}
             <div class="group relative inline-block text-left">
                 <button type="button" class="dropdown-button font-large text-xl uppercase hover:text-red inline-flex w-full justify-center items-center" aria-expanded="true" aria-haspopup="true">
