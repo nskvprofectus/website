@@ -23,6 +23,7 @@
   "dependencies": {
     "concurrently": "^8.2.2",
     "fast-glob": "^3.3.2",
+    "html-minifier": "^4.0.0",
     "path": "^0.12.7"
   }
 }
