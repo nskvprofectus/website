@@ -15,7 +15,7 @@ layout: components/page.njk
 
     <div class="w-full py-5 gap-8 grid grid-cols-1 tresh:grid-cols-2 px-4">
         {% for member in board.members %}
-            <div class="grid grid-cols-3 bg-blue bg-opacity-50 opacity-70 hover:opacity-100 duration-200 hover:scale-105">
+            <div class="grid grid-cols-3 bg-blue bg-opacity-50 hover:bg-opacity-70 opacity-70 hover:opacity-100 duration-200 hover:scale-105">
                 <img 
                     class="h-full w-full object-cover"
                     src="{{ board.folder }}/{{ member.image }}"
