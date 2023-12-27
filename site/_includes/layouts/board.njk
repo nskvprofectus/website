@@ -1,0 +1,39 @@
+---
+layout: components/page.njk
+---
+
+<div class="markdown">
+    <h1> The board of {{ board.year }} </h1>
+</div>
+
+<div class="flex items-center flex-col">
+    <img 
+        class="w-full"
+        src="{{ board.folder }}/{{ board.image }}"
+    >
+    </img>
+
+    <div class="w-full py-5 gap-8 grid grid-cols-1 tresh:grid-cols-2 px-4">
+        {% for member in board.members %}
+            <div class="grid grid-cols-3 bg-blue bg-opacity-50 opacity-70 hover:opacity-100 duration-200 hover:scale-105">
+                <img 
+                    class="h-full w-full object-cover"
+                    src="{{ board.folder }}/{{ member.image }}"
+                >
+                </img>
+                <div class="markdown col-span-2 mx-2">
+                    <h2> {{ member.name }} </h2>
+                    <p class="italic"> {{ member.role }} </p>
+                    <p> {{ member.description }} </p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{# <div class="markdown">
+    <h1> Previous boards </h1>
+</div> #}
+
+
+

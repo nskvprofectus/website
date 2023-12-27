@@ -8,10 +8,10 @@
     }
     
     h1, h2, h3 {
-        @apply font-large uppercase
+        @apply font-large uppercase ;
     }
     h1 {
-        @apply font-extrabold text-2xl mt-4 mb-1
+        @apply font-extrabold text-2xl mt-4 mb-1 ;
     }
 
     h2 {
@@ -23,6 +23,6 @@
     }
 
     p {
-        @apply mb-3
+        @apply font-small font-semibold mb-3 text-base normal-case ;
     }
 }
