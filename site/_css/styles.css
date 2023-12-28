@@ -25,4 +25,20 @@
     p {
         @apply font-small font-semibold mb-3 text-base normal-case ;
     }
+
+    li {
+        @apply list-disc list-inside
+    }
+
+    table {
+        @apply table-auto border-collapse
+    }
+
+    th, td {
+        @apply border-y-2 border-blue px-5
+    }
+
+    a {
+        @apply underline
+    }
 }
