@@ -10,9 +10,6 @@ const MobileNav = function MobileNav()
         navWindow.classList.remove('duration-0')
         navWindow.classList.add('duration-500')
 
-
-        
-
         // set aria-expanded attribute on menu toggle button
         if ( this.getAttribute('aria-expanded') === 'false' )
         {
@@ -24,4 +21,17 @@ const MobileNav = function MobileNav()
     })
 }()
 
-export default MobileNav
+const ToggleOpacity = function ToggleOpacity()
+{
+    let items = document.getElementsByClassName('toggle-opacity') ;
+
+    for (let item of items) {
+        item.addEventListener('click', function() {
+            this.toggleAttribute('aria-hidden')
+            this.classList.toggle('opacity-0')
+            this.classList.toggle('opacity-100')
+        })
+    }
+}()
+
+export { MobileNav, ToggleOpacity };

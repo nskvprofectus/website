@@ -16,6 +16,12 @@ module.exports = {
         '"Titillium Web"',
       ]
     },
+    backgroundImage: {
+      'sports-pattern': "url('/media/background_pattern.svg')",
+    },
+    backgroundSize: {
+      'pattern-size': '32rem',
+    },
     container: {
       padding: {
         DEFAULT: '1rem',
@@ -41,6 +47,7 @@ module.exports = {
       height: {
         'home-vid-height': '40rem',
         'mob-home-vid-height': '20rem',
+        'board-items-height' : '30rem'
       }
     },
   },

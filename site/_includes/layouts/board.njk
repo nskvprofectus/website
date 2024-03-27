@@ -13,18 +13,26 @@ layout: components/page.njk
     >
     </img>
 
-    <div class="w-full py-5 gap-8 grid grid-cols-1 tresh:grid-cols-2 px-4">
+    <div class="w-full py-5 gap-8 flex flex-wrap px-4">
         {% for member in board.members %}
-            <div class="grid grid-cols-3 bg-blue bg-opacity-50 hover:bg-opacity-70 opacity-70 hover:opacity-100 duration-200 hover:scale-105">
-                <img 
-                    class="h-full w-full object-cover"
-                    src="{{ board.folder }}/{{ member.image }}"
-                >
-                </img>
-                <div class="markdown col-span-2 mx-2">
+            <div class="">
+                <div class="relative aspect-[3/4] h-board-items-height overflow-hidden">
+                    <img 
+                        class="object-cover w-full h-full"
+                        src="{{ board.folder }}/{{ member.image }}"
+                    >
+                    </img>
+                    <p class="
+                        absolute left-0 top-0 h-full w-full 
+                        text-wrap p-4
+                        opacity-0 bg-blue tresh:hover:opacity-100 duration-200 toggle-opacity
+                        "> {{ member.description }} </p>
+
+                </div>
+                <div class="markdown">
                     <h2> {{ member.name }} </h2>
                     <p class="italic"> {{ member.role }} </p>
-                    <p> {{ member.description }} </p>
+                    
                 </div>
             </div>
         {% endfor %}
