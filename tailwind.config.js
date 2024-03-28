@@ -47,7 +47,7 @@ module.exports = {
       height: {
         'home-vid-height': '40rem',
         'mob-home-vid-height': '20rem',
-        'board-items-height' : '30rem'
+        'board-items-height' : '25rem'
       }
     },
   },

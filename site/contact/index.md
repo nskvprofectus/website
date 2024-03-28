@@ -5,8 +5,18 @@ eleventyNavigation:
   key: Contact
   order: 3
 ---
-# Email
-[secretaris@nskvprofectus.nl](mailto:secretaris@nskvprofectus.nl)
+**Name**: NIjmeegse Studenten Krachtsport Vereniging Profectus
+
+**Adres**: Radboud Sportcentrum: Heyendaalseweg 141, 6525AJ Nijmegen 
+
+**Postal Adres**: [TODO]
+
+**Email**: secretaris@nskvprofectus.nl
+
+**IBAN**: NL18 INGB 0007 3455 06 
+
+**Chamber of commerce**: 66478464
+
 
 # Training
 
