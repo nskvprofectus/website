@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 .markdown {    
-    html {
-        @apply font-small font-semibold;
+    * {
+        @apply font-small ;
     }
     
     h1, h2, h3 {
@@ -23,7 +23,7 @@
     }
 
     p {
-        @apply font-small font-semibold mb-3 text-base normal-case ;
+        @apply mb-3 text-lg normal-case ;
     }
 
     li {
