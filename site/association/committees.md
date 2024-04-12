@@ -22,3 +22,6 @@ The Merchandise committee has the goal to represent Profectus in style. This com
 The Activities committee is the driving force behind the exciting events and gatherings that bring Profectus together. The committee arranges a diverse range of activities, including seminars, competitions, and borrels. Whether you're a seasoned athlete or a fitness enthusiast looking to connect with like-minded individuals, the Activities committee ensures there's always something happening within our association that aligns with your interests and goals.
 
 Participate in our upcoming events, workshops, and competitions organized by the Activities committee to elevate your strength sport experience and forge lasting connections within our community.
+
+# The Mock Meet Committee
+The mock meet committee is dedicated to organising the yearly mock meet . Within the mock meet (newer) members can lift new personal records in a safe and motivationg envirment. We are proud that the mock meet has grown and evolved throughout the years to one of the biggest Profectus events.
