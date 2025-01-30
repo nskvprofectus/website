@@ -1,5 +1,5 @@
 ---
-tags: board_member
+tags: board_member_old
 name: Julius
 role: Chair
 image: /media/boards/22-23/julius.jpg
