@@ -9,8 +9,6 @@ eleventyNavigation:
 
 **Adress**: Radboud Sportcentrum: Heyendaalseweg 141, 6525AJ Nijmegen 
 
-**Postal Adres**: [TODO]
-
 **Email**: secretaris@nskvprofectus.nl
 
 **IBAN**: NL18 INGB 0007 3455 06 
@@ -25,5 +23,5 @@ eleventyNavigation:
 
 We train at the following times:
 - Tuesday 21:00-23:30
-- Thursday 19:45-23:30
+- Thursday 20:30-23:30
 - Saturday 18:00-21:00
