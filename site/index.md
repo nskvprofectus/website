@@ -10,10 +10,8 @@ eleventyNavigation:
 
 Profectus is *the* Student Strength Sports association in Nijmegen. We are the one stop shop for everything fitness related for the students of Nijmegen. Our association is the best way for fitness enthusiasts of all experience levels to meet and make gains together. We have a large group of powerlifters, but also offer weightlifting, bodybuilding, and general fitness. Our members range from casual lifters to professional athletes that compete on an international level. Everyone is welcome in our association!
 
-We offer members only training sessions at the Radboud Sport Centrum three times a week. Tuesday: 21.00-23.30, Thursday: 20.45-23.30, and Saturday: 18.00-21.00. Everyone is welcome to join during these sessions to train and chat!
+We offer members only training sessions at the Radboud Sport Centrum three times a week. Tuesday: 21.00-23.30, Thursday: 20.30-23.30, and Saturday: 18.00-21.00. Everyone is welcome to join during these sessions to train and chat!
 
-Check out this amazing video about our sports association below!
-[TODO]
 
 
 # Why you should join
