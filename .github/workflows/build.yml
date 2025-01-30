@@ -33,3 +33,4 @@ jobs:
         source: "./_site/*"
         target: "~/_site"
         rm: true
+        strip_components: 1
