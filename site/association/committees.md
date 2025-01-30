@@ -25,3 +25,6 @@ Participate in our upcoming events, workshops, and competitions organized by the
 
 # The Mock Meet Committee
 The mock meet committee is dedicated to organising the yearly mock meet . Within the mock meet (newer) members can lift new personal records in a safe and motivationg envirment. We are proud that the mock meet has grown and evolved throughout the years to one of the biggest Profectus events.
+
+# The Sports Committee
+The sports committee is dedicated to educate our members about all things related to strength sports. From organizing safe-lifting seminars, to making an exercise instruction booklet, we strive to spread as much knowledge as possible to our members.
