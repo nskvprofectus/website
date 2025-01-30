@@ -1,12 +1,17 @@
 ---
 tags: board_member
-name: Casper
+name: Farzad
 role: General Board Member
-image: /media/boards/22-23/casper.jpg
+image: /media/boards/24-25/farzad.jpg
 order: 4
 ---
-My name is Casper, and my role this year is to be the general member for Profectus. I fulfill multiple roles, ranging from managing the social media channels to assisting the secretary. 
+Hey! I’m Farzad, I’m 23 years old and currently studying medicine. I have a ton of hobbies
+and can never seem to pick just one—I love singing, dancing, flying, and basically trying
+anything new I can learn. Right now, I’m into semi-powerlifting at Profectus, and I’m also the
+Commissioner of External Affairs. I joined the board because I was inspired by how much I
+enjoyed the association and wanted to contribute to it myself. Plus, I get to work with a
+fantastic team of friends, and we’re always there to support each other.
+Fun fact about me: I’m so random that, as a medical student, I learned Python programming
+one summer just because I was bored. It has absolutely nothing to do with my studies, but I
+love picking up new skills!
 
-I've been a competitive powerlifter for around 3 years, and training for 5. I’ve done multiple competitions, the latest being the Dutch national student championships. 
-
-I’m positive in the upcoming years, where we will grow and help new members become the best version of themselves!

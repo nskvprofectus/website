@@ -5,9 +5,9 @@ eleventyNavigation:
   key: Contact
   order: 3
 ---
-**Name**: NIjmeegse Studenten Krachtsport Vereniging Profectus
+**Name**: Nijmeegse Studenten Krachtsport Vereniging Profectus
 
-**Adres**: Radboud Sportcentrum: Heyendaalseweg 141, 6525AJ Nijmegen 
+**Adress**: Radboud Sportcentrum: Heyendaalseweg 141, 6525AJ Nijmegen 
 
 **Postal Adres**: [TODO]
 
@@ -17,6 +17,7 @@ eleventyNavigation:
 
 **Chamber of commerce**: 66478464
 
+**Instagram**: @nskvprofectus
 
 # Training
 
@@ -24,5 +25,5 @@ eleventyNavigation:
 
 We train at the following times:
 - Tuesday 21:00-23:30
-- Thursday 20:45-23:30
+- Thursday 19:45-23:30
 - Saturday 18:00-21:00

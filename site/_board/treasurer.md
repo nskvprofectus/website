@@ -1,13 +1,20 @@
 ---
 tags: board_member
-name: Mink
+name: Lisan
 role: Treasurer
-image: /media/boards/22-23/mink.jpg
+image: /media/boards/24-25/lisan.jpg
 order: 3
 ---
 
-My name is Mink, and I serve as the treasurer for Profectus for this year. I make sure the association stays financially healthy and we make the most of our budget. 
+Hi, I am Lisan and I am happy to tell you that I currently serve as the treasurer of NSKV
+Profectus. I became a member around September 2023. What really spoke to me about
+Profectus is that it really feels like a big friend group that trains together. And as a bonus you
+get fun activities outside the gym as well! I really love that everyone is welcome, no matter
+your gym journey. 
 
-I’ve been training in powerlifting for about a year and still see great improvements in my technique, approach to fitness and overall numbers. I think strength sports are a great way to exercise, and are very exciting as relative to other sports it is easier to gauge progression. But the most important thing to me is exercising safely and I think Profectus nurtures that mentality.
+I started going to the gym around 2021 and fell in love with the progress
+from day 1. Within Profectus I learned about powerlifting and in the beginning of this uni year
+I competed in my first official competition. The support from Profectus is amazing! I am
+looking forward to a joyful year full of excitement and cannot wait to expand our amazing
+friend group.
 
-I hope we as an association can continue to grow, spread our knowledge and help each other get the most out of ourselves. 

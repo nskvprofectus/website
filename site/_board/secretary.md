@@ -1,8 +1,14 @@
 ---
 tags: board_member
-name: Eline
+name: Benthe
 role: Secretary
-image: /media/boards/22-23/eline.jpg
+image: /media/boards/24-25/benthe.jpg
 order: 2
 ---
-Hi! I’m Eline, the current secretary of NSKV Profectus. I’ve been an active member of the association for almost two and a half years now, which is also when I started my strength sports journey. Right from the start, the association has been incredibly welcoming and supportive and I’ve met some great friends here. Being the secretary provides me the opportunity to meaningfully engage with and give back to Profectus. During my year as board, I hope to provide the same encouraging and gezellige (for lack of a better word) atmosphere – to make new members feel at home and continue the association’s growth.
+Hello! My name is Benthe, and I am currently serving as the secretary of NSKV Profectus. I
+began my powerlifting journey two years ago, and one of the first things I did upon moving to
+Nijmegen was join Profectus. I’m proud to say I've now been a dedicated member for over a
+year, and from the very start, Profectus has felt like a warm, welcoming family. The support
+and friendships I’ve found here mean the world to me, and as secretary, I am grateful for the
+chance to give back to the association in a meaningful way. I look forward to a year filled
+with joy, learning, and the opportunity to connect with even more amazing people.
