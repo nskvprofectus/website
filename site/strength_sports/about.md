@@ -27,6 +27,9 @@ Strongman is a bit less known than the strength sports that were mentioned previ
 # General Fitness
 Our association offers a private fitness area 3 times per week, here you can seek guidance with experienced fellow members of RSC coaches to enhance your lifts. Whether you are a beginner looking to kickstart your fitness journey or an experienced athlete seeking a well-rounded approach, we can help you out. 
 
+# Fitraces/Hybrid training
+We are looking to expand into this territory, please join if you want to help us with that!
+
 
 # Other
 The mentioned fitness disciplines are just the tip of the iceberg, of course there are many more that can be practiced. At Profectus, all is welcome. We love to teach and learn from each other, so whatever kind of strength sport you do, feel free to come by!
