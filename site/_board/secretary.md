@@ -1,6 +1,6 @@
 ---
 tags: board_member
-name: Ian
+name: Erin Brink
 role: Secretary
 image: 
 order: 2
