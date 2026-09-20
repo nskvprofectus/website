@@ -1,6 +1,6 @@
 ---
 tags: board_member
-name: Anne
+name: Jasper Suy
 role: Chair
 image: 
 order: 0
