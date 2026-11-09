@@ -1,8 +1,8 @@
 ---
 tags: board_member
-name: Erin Brink
+name: 
 role: Treasurer
-image: /media/boards/26-27/erin.png
+image: 
 order: 3
 ---
 
