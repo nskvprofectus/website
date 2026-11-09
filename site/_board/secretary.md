@@ -2,7 +2,7 @@
 tags: board_member
 name: Erin Brink
 role: Secretary
-image: 
+image: boards/26-27/erin.jpg
 order: 2
 ---
 
